@@ -31,8 +31,10 @@
             function playSound(key_id) {
                 const audio = document.querySelector(`audio[data-key="${key_id}"]`);
                 if(!audio) return;
-                audio.currentTime = 0;
-                audio.play();
+
+                const audioClone = audio.cloneNode();
+                audioClone.currentTime = 0;
+                audioClone.play();
             }
         </script>
     </body>
