@@ -1,6 +1,6 @@
 html {
     font-size: 14px;
-    background-color: #e0777d;
+    background-color: #fff2cc;
 }
 
 html, body {
@@ -18,14 +18,86 @@ html, body {
 }
 
 .key {
-    border: .4rem solid #ffe6e8;
     border-radius: .5rem;
     margin: 1rem;
-    font-size: 1.5rem;
+    margin-top: 1rem;
     padding: 1rem .5rem;
-    width: 2rem;
-    height: 10rem;
-    text-align: center;
-    color: #ffe6e8;
-    background-color: #e28388;
+    width: 5rem;
+    height: 20rem;
+}
+
+.key:active {
+    margin-top: 2.2rem;
+}
+
+#C4 {
+    background-color: #ffbebc;
+    box-shadow: 0 0 0 1px #dfa7a5 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #dfa7a5, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#C4:active {
+    box-shadow: 0 0 0 1px #dfa7a5 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#D4 {
+    background-color: #ffccf9;
+    box-shadow: 0 0 0 1px #d8add3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #d8add3, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#D4:active {
+    box-shadow: 0 0 0 1px #d8add3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#E4 {
+    background-color: #d5aaff;
+    box-shadow: 0 0 0 1px #bb96e0 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #bb96e0, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#E4:active {
+    box-shadow: 0 0 0 1px #bb96e0 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#F4 {
+    background-color: #b5b9ff;
+    box-shadow: 0 0 0 1px #9fa3e2 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #9fa3e2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#F4:active {
+    box-shadow: 0 0 0 1px #9fa3e2 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#G4 {
+    background-color: #85e3ff;
+    box-shadow: 0 0 0 1px #77cae4 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #77cae4, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#G4:active {
+    box-shadow: 0 0 0 1px #77cae4 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#A4 {
+    background-color: #bffcc6;
+    box-shadow: 0 0 0 1px #abe2b2 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #abe2b2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#A4:active {
+    box-shadow: 0 0 0 1px #abe2b2 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#B4 {
+    background-color: #e7ffac;
+    box-shadow: 0 0 0 1px #cde299 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #cde299, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#B4:active {
+    box-shadow: 0 0 0 1px #cde299 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#C5 {
+    background-color: #ffffd1;
+    box-shadow: 0 0 0 1px #e2e2b9 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #e2e2b9, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+#C5:active {
+    box-shadow: 0 0 0 1px #e2e2b9 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
