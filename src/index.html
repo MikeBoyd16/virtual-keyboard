@@ -7,9 +7,7 @@
     </head>
 
     <body>
-        <div id="key-message">
-            Key Message
-        </div>
+        <div id="key-letter">C</div>
 
         <div id="keys">
             <div id="C4" class="key" onClick="playSound(this.id)"></div>
@@ -39,10 +37,10 @@
         <div id="demo">
             Demo
         </div>
-        
+
         <script>
             function playSound(keyID) {
-                // Find the sound associated with the selected key
+                // Find the sound for the selected key
                 const sound = document.querySelector(`audio[data-key="${keyID}"]`);
 
                 // End execution if a sound is not found
@@ -51,6 +49,29 @@
                 // Clone a new instance of the sound and play it
                 const soundInstance = sound.cloneNode();
                 soundInstance.play();
+
+                // Display the key letter in the key message area
+                const letterContainer = document.getElementById("key-letter");
+                letterContainer.innerHTML = keyID.charAt(0);
+
+                // Change the color of the displayed letter to the color of the key
+                const keyStyle = window.getComputedStyle(document.getElementById(`${keyID}`));
+                letterContainer.style.color = keyStyle.getPropertyValue('background-color');
+
+                // Change the text shadow of the displayed letter to the dark variant of the key color
+                keyColorDark = keyStyle.getPropertyValue('color');
+                letterContainer.style.textShadow = `0 1px 0 ${keyColorDark}, ` +
+                                                   `0 2px 0 ${keyColorDark}, ` +
+                                                   `0 3px 0 ${keyColorDark}, ` +
+                                                   `0 4px 0 ${keyColorDark}, ` +
+                                                   `0 5px 0 ${keyColorDark}, ` +
+                                                   `0 6px 1px rgba(0,0,0,.1), ` +
+                                                   `0 0 5px rgba(0,0,0,.1), ` +
+                                                   `0 1px 3px rgba(0,0,0,.3), ` +
+                                                   `0 3px 5px rgba(0,0,0,.2), ` + 
+                                                   `0 5px 10px rgba(0,0,0,.25), ` +
+                                                   `0 10px 10px rgba(0,0,0,.2), ` +
+                                                   `0 20px 20px rgba(0,0,0,.15)`;
             }
         </script>
     </body>

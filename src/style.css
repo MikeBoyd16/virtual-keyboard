@@ -9,14 +9,28 @@ html, body {
     font-family: sans-serif;
 }
 
-#key-message {
-    font-size: 32px;
+#key-letter {
+    font-size: 9vw;
     display: flex;
     flex: 1;
     min-height: 20vh;
     margin-top: 15vh;
     align-items: center;
     justify-content: center;
+    color: #ffbebc;
+    text-shadow: 
+    0 1px 0 #dfa7a5,
+    0 2px 0 #dfa7a5,
+    0 3px 0 #dfa7a5,
+    0 4px 0 #dfa7a5,
+    0 5px 0 #dfa7a5,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
 #keys {
@@ -59,6 +73,7 @@ html, body {
 
 #C4 {
     background-color: #ffbebc;
+    color: #dfa7a5;
     box-shadow: 0 0 0 1px #dfa7a5 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #dfa7a5, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -68,6 +83,7 @@ html, body {
 
 #D4 {
     background-color: #ffccf9;
+    color: #d8add3;
     box-shadow: 0 0 0 1px #d8add3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #d8add3, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -77,6 +93,7 @@ html, body {
 
 #E4 {
     background-color: #d5aaff;
+    color: #bb96e0;
     box-shadow: 0 0 0 1px #bb96e0 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #bb96e0, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -86,6 +103,7 @@ html, body {
 
 #F4 {
     background-color: #b5b9ff;
+    color: #9fa3e2;
     box-shadow: 0 0 0 1px #9fa3e2 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #9fa3e2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -95,6 +113,7 @@ html, body {
 
 #G4 {
     background-color: #85e3ff;
+    color: #77cae4;
     box-shadow: 0 0 0 1px #77cae4 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #77cae4, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -104,6 +123,7 @@ html, body {
 
 #A4 {
     background-color: #bffcc6;
+    color: #abe2b2;
     box-shadow: 0 0 0 1px #abe2b2 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #abe2b2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -113,6 +133,7 @@ html, body {
 
 #B4 {
     background-color: #e7ffac;
+    color: #cde299;
     box-shadow: 0 0 0 1px #cde299 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #cde299, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -122,6 +143,7 @@ html, body {
 
 #C5 {
     background-color: #ffffd1;
+    color: #e2e2b9;
     box-shadow: 0 0 0 1px #e2e2b9 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #e2e2b9, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
