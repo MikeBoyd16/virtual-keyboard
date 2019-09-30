@@ -9,7 +9,7 @@ html, body {
     font-family: sans-serif;
 }
 
-.keys {
+#keys {
     display: flex;
     flex: 1;
     min-height: 100vh;
@@ -20,7 +20,6 @@ html, body {
 .key {
     border-radius: .5rem;
     margin: 1rem;
-    margin-top: 1rem;
     padding: 1rem .5rem;
     width: 5rem;
     height: 20rem;
