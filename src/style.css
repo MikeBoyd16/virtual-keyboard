@@ -9,10 +9,20 @@ html, body {
     font-family: sans-serif;
 }
 
+#key-message {
+    font-size: 32px;
+    display: flex;
+    flex: 1;
+    min-height: 20vh;
+    margin-top: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
 #keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 35vh;
     align-items: center;
     justify-content: center;
 }
@@ -27,6 +37,24 @@ html, body {
 
 .key:active {
     margin-top: 2.2rem;
+}
+
+#keyboard-shortcut {
+    font-size: 32px;
+    display: flex;
+    flex: 1;
+    min-height: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#demo {
+    font-size: 32px;
+    display: flex;
+    flex: 1;
+    min-height: 19vh;
+    align-items: center;
+    justify-content: center;
 }
 
 #C4 {
