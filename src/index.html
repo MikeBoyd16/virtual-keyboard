@@ -31,7 +31,7 @@
         <audio data-key="C5" src="sounds/C5.mp3"></audio>
 
         <div id="demo">
-            <div id="demo-button">Play Demo</div>
+            <div id="demo-button" onClick="playDemo()">Play Demo</div>
         </div>
 
         <script>
@@ -68,6 +68,31 @@
                                                    `0 5px 10px rgba(0,0,0,.25), ` +
                                                    `0 10px 10px rgba(0,0,0,.2), ` +
                                                    `0 20px 20px rgba(0,0,0,.15)`;
+            }
+
+            function playDemo() {
+                var song = ["C4", "C4", "G4", "G4", "A4", "A4", "G4", "F4", "F4", "E4", "E4", "D4", "D4", "C4",
+                            "G4", "G4", "F4", "F4", "E4", "E4", "D4", "G4", "G4", "F4", "F4", "E4", "E4", "D4",
+                            "C4", "C4", "G4", "G4", "A4", "A4", "G4", "F4", "F4", "E4", "E4", "D4", "D4", "C4"];
+                
+                var timeout = 0;
+                song.forEach(function(item, index) {
+                    if([7, 14, 21, 28, 35].includes(index)) {
+                        timeout += 500;
+                    }
+                    
+                    setTimeout(function() {
+                        const keyStyle = window.getComputedStyle(document.getElementById(`${item}`));
+                        keyColorDark = keyStyle.getPropertyValue('color');
+                        var key = document.getElementById(item);
+                        key.style.boxShadow = `0 0 0 1px ${keyColorDark} inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3)`;
+                        key.style.transition = 'none';
+                        playSound(item);
+                        key.style.boxShadow = `0 0 0 1px ${keyColorDark} inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, ` +
+                                              `0 8px 0 0 ${keyColorDark}, 0 8px 8px 1px rgba(0, 0, 0, 0.5)`;
+                        key.style.transition = 'box-shadow 0.1s ease-in-out';
+                    }, index * 500 + timeout);
+                });
             }
         </script>
     </body>

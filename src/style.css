@@ -82,6 +82,10 @@ html, body {
     box-shadow: 0 0 0 1px #e6aa57 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
+.demo-key-press {
+    box-shadow: 0 0 0 1px #000000 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
 #C4 {
     background-color: #ffbebc;
     color: #dfa7a5;
