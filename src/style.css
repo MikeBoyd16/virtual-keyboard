@@ -53,20 +53,11 @@ html, body {
     margin-top: 2.2rem;
 }
 
-#keyboard-shortcut {
-    font-size: 32px;
-    display: flex;
-    flex: 1;
-    min-height: 2vh;
-    align-items: center;
-    justify-content: center;
-}
-
 #demo {
     font-size: 32px;
     display: flex;
     flex: 1;
-    min-height: 15vh;
+    min-height: 10vh;
     align-items: center;
     justify-content: center;
     -webkit-user-select: none; /* Safari */        
@@ -81,7 +72,7 @@ html, body {
     width: 15rem;
     height: 4rem;
     text-align: center;
-    color: rgb(247, 241, 241);
+    color: rgb(255, 255, 255);
     background-color: #ffbe61;
     box-shadow: 0 0 0 1px #e6aa57 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #e6aa57, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
