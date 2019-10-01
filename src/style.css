@@ -10,7 +10,7 @@ html, body {
 }
 
 #key-letter {
-    font-size: 9vw;
+    font-size: 225px;
     display: flex;
     flex: 1;
     min-height: 20vh;
