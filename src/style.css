@@ -92,18 +92,10 @@ html, body {
     box-shadow: 0 0 0 1px #dfa7a5 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #dfa7a5, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
-#C4:active {
-    box-shadow: 0 0 0 1px #dfa7a5 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-}
-
 #D4 {
     background-color: #ffccf9;
     color: #d8add3;
     box-shadow: 0 0 0 1px #d8add3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #d8add3, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
-}
-
-#D4:active {
-    box-shadow: 0 0 0 1px #d8add3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 #E4 {
@@ -112,18 +104,10 @@ html, body {
     box-shadow: 0 0 0 1px #bb96e0 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #bb96e0, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
-#E4:active {
-    box-shadow: 0 0 0 1px #bb96e0 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-}
-
 #F4 {
     background-color: #b5b9ff;
     color: #9fa3e2;
     box-shadow: 0 0 0 1px #9fa3e2 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #9fa3e2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
-}
-
-#F4:active {
-    box-shadow: 0 0 0 1px #9fa3e2 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 #G4 {
@@ -132,18 +116,10 @@ html, body {
     box-shadow: 0 0 0 1px #77cae4 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #77cae4, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
-#G4:active {
-    box-shadow: 0 0 0 1px #77cae4 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-}
-
 #A4 {
     background-color: #bffcc6;
     color: #abe2b2;
     box-shadow: 0 0 0 1px #abe2b2 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #abe2b2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
-}
-
-#A4:active {
-    box-shadow: 0 0 0 1px #abe2b2 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 #B4 {
@@ -152,16 +128,8 @@ html, body {
     box-shadow: 0 0 0 1px #cde299 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #cde299, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
-#B4:active {
-    box-shadow: 0 0 0 1px #cde299 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
-}
-
 #C5 {
     background-color: #ffffd1;
     color: #e2e2b9;
     box-shadow: 0 0 0 1px #e2e2b9 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #e2e2b9, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
-}
-
-#C5:active {
-    box-shadow: 0 0 0 1px #e2e2b9 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
