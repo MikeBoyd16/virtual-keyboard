@@ -51,12 +51,14 @@
             function keyUp(keyID) {
                 var key = document.getElementById(keyID);
                 var keyColorDark = window.getComputedStyle(key).getPropertyValue('color');
+
+                // Key comes back up
                 key.style.boxShadow = `0 0 0 1px ${keyColorDark} inset,` +
                                       `0 0 0 2px rgba(255, 255, 255, 0.15) inset, ` +
                                       `0 8px 0 0 ${keyColorDark},` + 
                                       `0 8px 8px 1px rgba(0, 0, 0, 0.5)`;
             }
-            
+
             function playSound(keyID) {
                 // Find the sound for the selected key
                 const sound = document.querySelector(`audio[data-key="${keyID}"]`);
@@ -73,7 +75,7 @@
                 letterContainer.innerHTML = keyID.charAt(0);
 
                 // Change the color of the displayed letter to the color of the key
-                const keyStyle = window.getComputedStyle(document.getElementById(`${keyID}`));
+                const keyStyle = window.getComputedStyle(document.getElementById(keyID));
                 letterContainer.style.color = keyStyle.getPropertyValue('background-color');
 
                 // Change the text shadow of the displayed letter to the dark variant of the key color
@@ -97,10 +99,10 @@
                             "G4", "G4", "F4", "F4", "E4", "E4", "D4", "G4", "G4", "F4", "F4", "E4", "E4", "D4",
                             "C4", "C4", "G4", "G4", "A4", "A4", "G4", "F4", "F4", "E4", "E4", "D4", "D4", "C4"];
                 
-                var timeout = 0;
+                var songPause = 0;
                 song.forEach(function(item, index) {
                     if([7, 14, 21, 28, 35].includes(index)) {
-                        timeout += 500;
+                        songPause += 500;
                     }
                     
                     setTimeout(function() {
@@ -122,7 +124,7 @@
                                       `0 8px 0 0 ${keyColorDark},` + 
                                       `0 8px 8px 1px rgba(0, 0, 0, 0.5)`;
                         key.style.transition = 'box-shadow 0.1s ease-in-out';
-                    }, index * 500 + timeout);
+                    }, index * 500 + songPause);
                 });
             }
         </script>

@@ -36,7 +36,7 @@ html, body {
 #keys {
     display: flex;
     flex: 1;
-    min-height: 35vh;
+    min-height: 40vh;
     align-items: center;
     justify-content: center;
 }
@@ -57,13 +57,13 @@ html, body {
     font-size: 32px;
     display: flex;
     flex: 1;
-    min-height: 10vh;
+    min-height: 15vh;
     align-items: center;
     justify-content: center;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #demo-button {
