@@ -11,3 +11,5 @@
 </ul>
 <h2>Documentation</h2>
 <p>Visit the <a href="https://github.com/MikeBoyd16/virtual-keyboard/wiki">wiki page</a> for any available documentation.</p>
+<h2>Author</h2>
+<a href="https://github.com/MikeBoyd16">Michael Boyd</a>
