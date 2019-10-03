@@ -46,6 +46,7 @@
                 key.style.transition = 'none';
 
                 playSound(keyID);
+                changeLetter(keyID);
             }
 
             function keyUp(keyID) {
@@ -69,7 +70,9 @@
                 // Clone a new instance of the sound and play it
                 const soundInstance = sound.cloneNode();
                 soundInstance.play();
+            }
 
+            function changeLetter(keyID) {
                 // Display the key letter in the key message area
                 const letterContainer = document.getElementById("key-letter");
                 letterContainer.innerHTML = keyID.charAt(0);
@@ -115,8 +118,9 @@
                                 `0 1px 3px 1px rgba(0, 0, 0, 0.3)`;
                         key.style.transition = 'none';
                         
-                        // Key sound plays
+                        // Key sound plays and the letter changes
                         playSound(item);
+                        changeLetter(item);
                         
                         // Key comes back up
                         key.style.boxShadow = `0 0 0 1px ${keyColorDark} inset,` +
